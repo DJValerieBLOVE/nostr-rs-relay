@@ -1,5 +1,5 @@
 [info]
-relay_url = "wss://your-relay.up.railway.app"
+relay_url = "wss://nostr-rs-relay-production-1569.up.railway.app"
 name = "11x LOVE Private Relay"
 description = "Private relay for the 11x LOVE coaching community"
 pubkey = "3d70ec1ea586650a0474d6858454209d222158f4079e8db806f017ef5e30e767"
