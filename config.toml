@@ -23,11 +23,5 @@ pubkey_whitelist = [
     "3d70ec1ea586650a0474d6858454209d222158f4079e8db806f017ef5e30e767"
 ]
 
-[verified_users]
-mode = "whitelist"
-pubkey_whitelist = [
-    "3d70ec1ea586650a0474d6858454209d222158f4079e8db806f017ef5e30e767"
-]
-
 [options]
 reject_future_seconds = 1800
