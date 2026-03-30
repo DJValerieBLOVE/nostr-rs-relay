@@ -14,7 +14,7 @@ address = "0.0.0.0"
 
 [limits]
 messages_per_sec = 100
-max_event_bytes = 131072
+max_event_bytes = 524288
 max_ws_message_bytes = 524288
 max_conn = 128
 
