@@ -6,7 +6,7 @@ pubkey = "3d70ec1ea586650a0474d6858454209d222158f4079e8db806f017ef5e30e767"
 contact = "npub184cwc849sejs5pr566zcg4pqn53zzk85q70gmwqx7qt77h3suansvet30s"
 
 [database]
-data_directory = "/data"
+data_directory = "/usr/src/app/db"
 
 [network]
 port = 8080
