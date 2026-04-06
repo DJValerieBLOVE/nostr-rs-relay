@@ -19,9 +19,10 @@ max_ws_message_bytes = 524288
 max_conn = 128
 
 [authorization]
-pubkey_whitelist = [
-    "3d70ec1ea586650a0474d6858454209d222158f4079e8db806f017ef5e30e767"
-]
+# pubkey_whitelist removed — NIP-17 gift wraps use ephemeral keys that can't be whitelisted.
+# Relay URL is private (not in NIP-65 lists). Access control via URL obscurity + rate limits.
+nip42_auth = false
+nip42_dms = true
 
 [options]
 reject_future_seconds = 1800
