@@ -21,8 +21,9 @@ max_conn = 128
 [authorization]
 # pubkey_whitelist removed — NIP-17 gift wraps use ephemeral keys that can't be whitelisted.
 # Relay URL is private (not in NIP-65 lists). Access control via URL obscurity + rate limits.
+# nip42_dms requires nip42_auth to work (clients must authenticate first) — enable both or neither.
 nip42_auth = false
-nip42_dms = true
+nip42_dms = false
 
 [options]
 reject_future_seconds = 1800
