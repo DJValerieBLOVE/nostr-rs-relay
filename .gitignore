@@ -4,3 +4,11 @@ nostr.db-*
 justfile
 result
 **/.idea/
+
+# Secrets. Never commit.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
